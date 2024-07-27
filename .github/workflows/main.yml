@@ -40,4 +40,4 @@ jobs:
 
       - name: aws s3 upload archives
         run: aws s3 cp ./dist/msa/browser s3://mfsa --recursive
-`
+
